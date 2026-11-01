@@ -251,6 +251,7 @@ void OSDSettingsWidget::onPerformancePosChanged()
 	m_ui.showUsageCPU->setEnabled(enabled);
 	m_ui.showUsageGPU->setEnabled(enabled);
 	m_ui.showStatsGPU->setEnabled(enabled);
+	m_ui.showGPUShadersStats->setEnabled(enabled);
 	m_ui.showStatusIndicators->setEnabled(enabled);
 	m_ui.showFrameTimes->setEnabled(enabled);
 	m_ui.showHardwareInfo->setEnabled(enabled);
